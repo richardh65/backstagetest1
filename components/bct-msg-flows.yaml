@@ -1,0 +1,22 @@
+
+
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Transactions_example1.msgflow
+  description: tobe done 1
+spec:
+  type: service
+  lifecycle: production
+  owner: iib
+  system: bct-system
+  #dependsOn:
+  #  - resource:default/artists-db
+  # providesApis:
+  #  - artist-api
+
+				
+---													
+													
+				
