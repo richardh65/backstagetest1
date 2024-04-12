@@ -1,3 +1,14 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: bct-system
+  description: Handy tools to keep artists in the loop
+spec:
+  owner: artist-relations-team
+  domain: bct-domain
+  
+---
 apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
@@ -5,4 +16,6 @@ metadata:
   description: BCT components
 spec:
   targets:
-    - ./components/bct-component1.yaml
+    - ./components/bct-msg-flows.yaml
+    - ./resources/bct-datasources.yaml
+
