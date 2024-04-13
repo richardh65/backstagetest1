@@ -12,5 +12,5 @@ spec:
   #  - resource:default/artists-db
   # providesApis:
   #  - artist-api
-
+  
 ---
