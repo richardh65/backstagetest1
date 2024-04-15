@@ -2,7 +2,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: System
 metadata:
-  name: Security-Our-Broker-demo5a
+  name: testAggregate1
   description: Handy tools to keep artists in the loop
 spec:
   owner: artist-relations-team
@@ -18,4 +18,5 @@ spec:
   targets:
     - ./components/bct-msg-flows.yaml
     - ./resources/bct-datasources.yaml
+    - ./components/bct-input-mq.yaml
 
