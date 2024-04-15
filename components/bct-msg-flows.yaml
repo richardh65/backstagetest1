@@ -3,8 +3,8 @@ kind: Component
 metadata:
   name: Transactions_example1.msgflow
   title: Transactions_example1.msgflow - 1
-  description: 
-spec:
+    description: 
+  spec:
   type: service
   lifecycle: production
   owner: iib
