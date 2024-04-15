@@ -4,8 +4,9 @@ kind: API
 metadata:
   name: TEST1-mq
   # description: $escapeTool.html($!datasource.dataSourceName)
-spec:
-  type: mq
+spec:  
+  type: openapi
+  # type: mq - ideally we can have an option for non REST services
   owner: iib
   system: testAggregate1
 
