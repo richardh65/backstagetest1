@@ -13,30 +13,8 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Resource
 metadata:
-  name: RESERVDB-db
-  description: RESERVDB
-spec:
-  type: database
-  owner: iib
-  system: Security-Our-Broker-demo5a
-  
----					
-apiVersion: backstage.io/v1alpha1
-kind: Resource
-metadata:
-  name: DatasourceT3-db
-  description: DatasourceT3
-spec:
-  type: database
-  owner: iib
-  system: Security-Our-Broker-demo5a
-  
----					
-apiVersion: backstage.io/v1alpha1
-kind: Resource
-metadata:
-  name: TLOGMON-db
-  description: TLOGMON
+  name: DataSourceT1-db
+  description: DataSourceT1
 spec:
   type: database
   owner: iib
@@ -57,8 +35,8 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Resource
 metadata:
-  name: DBInput-db
-  description: DBInput
+  name: TLOGMON-db
+  description: TLOGMON
 spec:
   type: database
   owner: iib
@@ -79,19 +57,8 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Resource
 metadata:
-  name: RESERVDB-db
-  description: RESERVDB
-spec:
-  type: database
-  owner: iib
-  system: Security-Our-Broker-demo5a
-  
----					
-apiVersion: backstage.io/v1alpha1
-kind: Resource
-metadata:
-  name: DBINPUT-db
-  description: DBINPUT
+  name: TDBName-db
+  description: TDBName
 spec:
   type: database
   owner: iib
@@ -123,8 +90,129 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Resource
 metadata:
-  name: TDBName-db
-  description: TDBName
+  name: TLOGMON-db
+  description: TLOGMON
+spec:
+  type: database
+  owner: iib
+  system: Security-Our-Broker-demo5a
+  
+---					
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: RESERVDB-db
+  description: RESERVDB
+spec:
+  type: database
+  owner: iib
+  system: Security-Our-Broker-demo5a
+  
+---					
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: DatasourceT1-db
+  description: DatasourceT1
+spec:
+  type: database
+  owner: iib
+  system: Security-Our-Broker-demo5a
+  
+---					
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: ROUTING-db
+  description: ROUTING
+spec:
+  type: database
+  owner: iib
+  system: Security-Our-Broker-demo5a
+  
+---					
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: DBINPUT-db
+  description: DBINPUT
+spec:
+  type: database
+  owner: iib
+  system: Security-Our-Broker-demo5a
+  
+---					
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: DataSourceT3-db
+  description: DataSourceT3
+spec:
+  type: database
+  owner: iib
+  system: Security-Our-Broker-demo5a
+  
+---					
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: RESERVDB-db
+  description: RESERVDB
+spec:
+  type: database
+  owner: iib
+  system: Security-Our-Broker-demo5a
+  
+---					
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: DatasourceT2-db
+  description: DatasourceT2
+spec:
+  type: database
+  owner: iib
+  system: Security-Our-Broker-demo5a
+  
+---					
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: TLOGMON-db
+  description: TLOGMON
+spec:
+  type: database
+  owner: iib
+  system: Security-Our-Broker-demo5a
+  
+---					
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: DBInput-db
+  description: DBInput
+spec:
+  type: database
+  owner: iib
+  system: Security-Our-Broker-demo5a
+  
+---					
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: DatasourceT3-db
+  description: DatasourceT3
+spec:
+  type: database
+  owner: iib
+  system: Security-Our-Broker-demo5a
+  
+---					
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: PR-Datasource-db
+  description: PR-Datasource
 spec:
   type: database
   owner: iib
@@ -167,8 +255,30 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Resource
 metadata:
-  name: USERDB-db
-  description: USERDB
+  name: TLOGMON-db
+  description: TLOGMON
+spec:
+  type: database
+  owner: iib
+  system: Security-Our-Broker-demo5a
+  
+---					
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: DataSourceT1-db
+  description: DataSourceT1
+spec:
+  type: database
+  owner: iib
+  system: Security-Our-Broker-demo5a
+  
+---					
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: TLOGMON-db
+  description: TLOGMON
 spec:
   type: database
   owner: iib
@@ -189,74 +299,8 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Resource
 metadata:
-  name: DatasourceT1-db
-  description: DatasourceT1
-spec:
-  type: database
-  owner: iib
-  system: Security-Our-Broker-demo5a
-  
----					
-apiVersion: backstage.io/v1alpha1
-kind: Resource
-metadata:
-  name: PR-Datasource-db
-  description: PR-Datasource
-spec:
-  type: database
-  owner: iib
-  system: Security-Our-Broker-demo5a
-  
----					
-apiVersion: backstage.io/v1alpha1
-kind: Resource
-metadata:
-  name: TLOGMON-db
-  description: TLOGMON
-spec:
-  type: database
-  owner: iib
-  system: Security-Our-Broker-demo5a
-  
----					
-apiVersion: backstage.io/v1alpha1
-kind: Resource
-metadata:
-  name: DatasourceT2-db
-  description: DatasourceT2
-spec:
-  type: database
-  owner: iib
-  system: Security-Our-Broker-demo5a
-  
----					
-apiVersion: backstage.io/v1alpha1
-kind: Resource
-metadata:
-  name: TLOGMON-db
-  description: TLOGMON
-spec:
-  type: database
-  owner: iib
-  system: Security-Our-Broker-demo5a
-  
----					
-apiVersion: backstage.io/v1alpha1
-kind: Resource
-metadata:
-  name: DataSourceT1-db
-  description: DataSourceT1
-spec:
-  type: database
-  owner: iib
-  system: Security-Our-Broker-demo5a
-  
----					
-apiVersion: backstage.io/v1alpha1
-kind: Resource
-metadata:
-  name: TLOGMON-db
-  description: TLOGMON
+  name: USERDB-db
+  description: USERDB
 spec:
   type: database
   owner: iib
@@ -277,50 +321,6 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Resource
 metadata:
-  name: DataSourceT1-db
-  description: DataSourceT1
-spec:
-  type: database
-  owner: iib
-  system: Security-Our-Broker-demo5a
-  
----					
-apiVersion: backstage.io/v1alpha1
-kind: Resource
-metadata:
-  name: ROUTING-db
-  description: ROUTING
-spec:
-  type: database
-  owner: iib
-  system: Security-Our-Broker-demo5a
-  
----					
-apiVersion: backstage.io/v1alpha1
-kind: Resource
-metadata:
-  name: DataSourceT3-db
-  description: DataSourceT3
-spec:
-  type: database
-  owner: iib
-  system: Security-Our-Broker-demo5a
-  
----					
-apiVersion: backstage.io/v1alpha1
-kind: Resource
-metadata:
-  name: ROUTING-db
-  description: ROUTING
-spec:
-  type: database
-  owner: iib
-  system: Security-Our-Broker-demo5a
-  
----					
-apiVersion: backstage.io/v1alpha1
-kind: Resource
-metadata:
   name: TLOGMON-db
   description: TLOGMON
 spec:
@@ -332,8 +332,8 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Resource
 metadata:
-  name: TLOGMON-db
-  description: TLOGMON
+  name: ROUTING-db
+  description: ROUTING
 spec:
   type: database
   owner: iib

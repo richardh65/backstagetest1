@@ -1,0 +1,6072 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: TCPIP_SYNC_IN-mq
+  description: TCPIP_SYNC_IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: TCPIP_SYNC_FAIL-mq
+  description: TCPIP_SYNC_FAIL
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: WSAGGREGATIONSAMPLE.IN2-mq
+  description: WSAGGREGATIONSAMPLE.IN2
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: WSAGGREGATIONSAMPLE.IN1-mq
+  description: WSAGGREGATIONSAMPLE.IN1
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: ROUTING.WHOLE.FILE.IN1-mq
+  description: ROUTING.WHOLE.FILE.IN1
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: DOTNET.IN-mq
+  description: DOTNET.IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: DOTNET.OUT-mq
+  description: DOTNET.OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: C-mq
+  description: C
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: D-mq
+  description: D
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: LOG-mq
+  description: LOG
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: QUEUE.DEFINED.1-mq
+  description: QUEUE.DEFINED.1
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: SAMPLE_GSA_RSSDIF_IN-mq
+  description: SAMPLE_GSA_RSSDIF_IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: SAMPLE_GSA_TLOGRAW_IN-mq
+  description: SAMPLE_GSA_TLOGRAW_IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: SAMPLE_GSA_TLOGXML_IN-mq
+  description: SAMPLE_GSA_TLOGXML_IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: SAMPLE_GSA_POSLOGXML_IN-mq
+  description: SAMPLE_GSA_POSLOGXML_IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: TRANSFORM_EXAMPLE_NON_STANDARD_OUT-mq
+  description: TRANSFORM_EXAMPLE_NON_STANDARD_OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: TRANSFORM_EXAMPLE_POSLOGXML_OUT-mq
+  description: TRANSFORM_EXAMPLE_POSLOGXML_OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: TRANSFORM_EXAMPLE_FAIL_OUT-mq
+  description: TRANSFORM_EXAMPLE_FAIL_OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: X12_TO_XML_IN-mq
+  description: X12_TO_XML_IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: X12_FAIL-mq
+  description: X12_FAIL
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: X12_TO_XML_OUT-mq
+  description: X12_TO_XML_OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: JAVACOMPUTE.REGEX.IN-mq
+  description: JAVACOMPUTE.REGEX.IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: JAVACOMPUTE.REGEX.ALTERNATE-mq
+  description: JAVACOMPUTE.REGEX.ALTERNATE
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: JAVACOMPUTE.REGEX.FAILURE-mq
+  description: JAVACOMPUTE.REGEX.FAILURE
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: JAVACOMPUTE.REGEX.OUT-mq
+  description: JAVACOMPUTE.REGEX.OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: IN-mq
+  description: IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: OUT-mq
+  description: OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: GET_REQREP_GC_IN-mq
+  description: GET_REQREP_GC_IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: GET_BACKEND_GC_REQ-mq
+  description: GET_BACKEND_GC_REQ
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: UDESAMPLE.NUMCOMPUTE.IN-mq
+  description: UDESAMPLE.NUMCOMPUTE.IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: UDESAMPLE.NUMCOMPUTE.FAILURE-mq
+  description: UDESAMPLE.NUMCOMPUTE.FAILURE
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: UDESAMPLE.NUMCOMPUTE.OUT-mq
+  description: UDESAMPLE.NUMCOMPUTE.OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: XMLORDERLIST.IN-mq
+  description: XMLORDERLIST.IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: ORDERLIST.IN1-mq
+  description: ORDERLIST.IN1
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: PURCHASEDATA.OUT1-mq
+  description: PURCHASEDATA.OUT1
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: OUT-mq
+  description: OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: WEBSERVICECLIENTIN-mq
+  description: WEBSERVICECLIENTIN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: WEBSERVICECLIENTOUT-mq
+  description: WEBSERVICECLIENTOUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: BINARYADDR.IN1-mq
+  description: BINARYADDR.IN1
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: XMLADDR.OUT1-mq
+  description: XMLADDR.OUT1
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: CICS_IN-mq
+  description: CICS_IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: CICS_ERROR-mq
+  description: CICS_ERROR
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: CICS_OUT-mq
+  description: CICS_OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: DATAWAREHOUSE_IN_Q-mq
+  description: DATAWAREHOUSE_IN_Q
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: DATAWAREHOUSE_OUT_Q-mq
+  description: DATAWAREHOUSE_OUT_Q
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: DATAWAREHOUSE_FAILURE_Q-mq
+  description: DATAWAREHOUSE_FAILURE_Q
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: DOTNET.INPUT.OUT-mq
+  description: DOTNET.INPUT.OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: CORBA_SAMPLE_IN-mq
+  description: CORBA_SAMPLE_IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: CORBA_SAMPLE_ERROR-mq
+  description: CORBA_SAMPLE_ERROR
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: CORBA_SAMPLE_OUT-mq
+  description: CORBA_SAMPLE_OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: Q1-mq
+  description: Q1
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: Q2-mq
+  description: Q2
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: Q3-mq
+  description: Q3
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: Q4-mq
+  description: Q4
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: DATAWAREHOUSE_VERIFY_CONTENTS_IN_Q-mq
+  description: DATAWAREHOUSE_VERIFY_CONTENTS_IN_Q
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: DATAWAREHOUSE_VERIFY_CONTENTS_OUT_Q-mq
+  description: DATAWAREHOUSE_VERIFY_CONTENTS_OUT_Q
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: DATAWAREHOUSE_FAILURE_Q-mq
+  description: DATAWAREHOUSE_FAILURE_Q
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: TCPIP_ASYNC_FAIL-mq
+  description: TCPIP_ASYNC_FAIL
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: Q5-mq
+  description: Q5
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: LOG-mq
+  description: LOG
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: TEST.IN-mq
+  description: TEST.IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: TEST.OUT-mq
+  description: TEST.OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: STAFF_UPDATE_ERROR-mq
+  description: STAFF_UPDATE_ERROR
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: IN-mq
+  description: IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: OUT-mq
+  description: OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: FTE_STOCK_PROCESS_HQ-mq
+  description: FTE_STOCK_PROCESS_HQ
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: FTE_STOCK_INVOICE_BRANCH-mq
+  description: FTE_STOCK_INVOICE_BRANCH
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: TEST1-mq
+  description: TEST1
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: IN-mq
+  description: IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: OUT-mq
+  description: OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: Q1-mq
+  description: Q1
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: SOLAR-mq
+  description: SOLAR
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: SOLARERRORS-mq
+  description: SOLARERRORS
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: SUNSETSUNRISETIMES-mq
+  description: SUNSETSUNRISETIMES
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: TIMEOUT_SAMPLE_OUT_1-mq
+  description: TIMEOUT_SAMPLE_OUT_1
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: SOAPSAMPLE_IN-mq
+  description: SOAPSAMPLE_IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: SOAPSAMPLE_OUT-mq
+  description: SOAPSAMPLE_OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: SOAPSAMPLE_FAULT-mq
+  description: SOAPSAMPLE_FAULT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: QUEUE.COMPUTE.IN-mq
+  description: QUEUE.COMPUTE.IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: QUEUE.COMPUTE.OUT2-mq
+  description: QUEUE.COMPUTE.OUT2
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: TEST1.Q-mq
+  description: TEST1.Q
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: TEST2.Q-mq
+  description: TEST2.Q
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: SYSTEM.QUEUE.LABEL1-mq
+  description: SYSTEM.QUEUE.LABEL1
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: XML_TO_X12_IN-mq
+  description: XML_TO_X12_IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: X12_FAIL-mq
+  description: X12_FAIL
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: XML_TO_X12_OUT-mq
+  description: XML_TO_X12_OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: INPUTQUEUE-mq
+  description: INPUTQUEUE
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: WSCLIENT1_IN1-mq
+  description: WSCLIENT1_IN1
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: JDE_SAMPLE_IN-mq
+  description: JDE_SAMPLE_IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: JDE_SAMPLE_OUT-mq
+  description: JDE_SAMPLE_OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: JDE_SAMPLE_ERROR-mq
+  description: JDE_SAMPLE_ERROR
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: GET_BACKEND_REP-mq
+  description: GET_BACKEND_REP
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: ADDRESSBOOK_IN-mq
+  description: ADDRESSBOOK_IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: ADDRESSBOOK_OUT-mq
+  description: ADDRESSBOOK_OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: ADDRESSBOOK_FAULT-mq
+  description: ADDRESSBOOK_FAULT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: UDESAMPLE.SEARCHFILTER.IN-mq
+  description: UDESAMPLE.SEARCHFILTER.IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: UDESAMPLE.SEARCHFILTER.FAILURE-mq
+  description: UDESAMPLE.SEARCHFILTER.FAILURE
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: UDESAMPLE.SEARCHFILTER.OUT-mq
+  description: UDESAMPLE.SEARCHFILTER.OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: SIMPLERROUTEDB_IN-mq
+  description: SIMPLERROUTEDB_IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: SIMPLERROUTEDB_ORDERCLOCK-mq
+  description: SIMPLERROUTEDB_ORDERCLOCK
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: SIMPLERROUTEDB_DEFAULT-mq
+  description: SIMPLERROUTEDB_DEFAULT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: SIMPLERROUTEDB_SNRSTAFF-mq
+  description: SIMPLERROUTEDB_SNRSTAFF
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: SIMPLERROUTEDB_FAILURE-mq
+  description: SIMPLERROUTEDB_FAILURE
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: SIMPLERROUTEDB_KEYNOTFOUND-mq
+  description: SIMPLERROUTEDB_KEYNOTFOUND
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: GET_BACKEND_REQ-mq
+  description: GET_BACKEND_REQ
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: TQ1-mq
+  description: TQ1
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: MQ_SERVER_REQUEST-mq
+  description: MQ_SERVER_REQUEST
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: WSHOST1_IN1-mq
+  description: WSHOST1_IN1
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: WSHOST1_OUT1-mq
+  description: WSHOST1_OUT1
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: WSHOST1_STATE1-mq
+  description: WSHOST1_STATE1
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: QUEUE.FLOW.WITHOUTNOTE.IN-mq
+  description: QUEUE.FLOW.WITHOUTNOTE.IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: A-mq
+  description: A
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: B-mq
+  description: B
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: QSUB-START1-mq
+  description: QSUB-START1
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: D-SUB1-mq
+  description: D-SUB1
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: D-SUB2-mq
+  description: D-SUB2
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: QSUB-START2-mq
+  description: QSUB-START2
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: SECURITYIDFROMMQIN-mq
+  description: SECURITYIDFROMMQIN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: SECURITYIDFROMMSGIN-mq
+  description: SECURITYIDFROMMSGIN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: SECURITYIDFROMMSGOUT-mq
+  description: SECURITYIDFROMMSGOUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: SECURITYIDFROMMQOUT-mq
+  description: SECURITYIDFROMMQOUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: DBINPUTSAMPLE.FAILURE-mq
+  description: DBINPUTSAMPLE.FAILURE
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: DBINPUTSAMPLE.OUTPUT-mq
+  description: DBINPUTSAMPLE.OUTPUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: SURFWATCH-mq
+  description: SURFWATCH
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: SURFWATCH_FAIL-mq
+  description: SURFWATCH_FAIL
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: FEM.UPSTREAM.EMP06.Q-mq
+  description: FEM.UPSTREAM.EMP06.Q
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: FEM.UPSTREAM.EMP05.Q-mq
+  description: FEM.UPSTREAM.EMP05.Q
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: FEM.UPSTREAM.EMP04.Q-mq
+  description: FEM.UPSTREAM.EMP04.Q
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: FEM.UPSTREAM.EMP03.Q-mq
+  description: FEM.UPSTREAM.EMP03.Q
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: FEM.UPSTREAM.EMP02.Q-mq
+  description: FEM.UPSTREAM.EMP02.Q
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: FEM.UPSTREAM.CONTROL.Q-mq
+  description: FEM.UPSTREAM.CONTROL.Q
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: FEM.UPSTREAM.EMP01.Q-mq
+  description: FEM.UPSTREAM.EMP01.Q
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: FEM.UPSTREAM.ERROR.Q-mq
+  description: FEM.UPSTREAM.ERROR.Q
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: FEM.UPSTREAM.FEED.Q-mq
+  description: FEM.UPSTREAM.FEED.Q
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: Q6-mq
+  description: Q6
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: Q1-mq
+  description: Q1
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: LOG-mq
+  description: LOG
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: QUEUE.DEFINED.1-mq
+  description: QUEUE.DEFINED.1
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: XML_RESERVATION_IN-mq
+  description: XML_RESERVATION_IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: XML_RESERVATION_FAIL-mq
+  description: XML_RESERVATION_FAIL
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: XML_RESERVATION_OUT-mq
+  description: XML_RESERVATION_OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: TEXTMESSENGER-mq
+  description: TEXTMESSENGER
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: PAGER-mq
+  description: PAGER
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: TEXTMESSENGER_FAIL-mq
+  description: TEXTMESSENGER_FAIL
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: QUEUE.COMPUTE.OUT-mq
+  description: QUEUE.COMPUTE.OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: GET_BACKEND_GC_REQ-mq
+  description: GET_BACKEND_GC_REQ
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: QUEUE.COMPUTE.OUT-mq
+  description: QUEUE.COMPUTE.OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: HOSPITAL.ERR-mq
+  description: HOSPITAL.ERR
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: ROUTING.DATABASE.IN1-mq
+  description: ROUTING.DATABASE.IN1
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: CACHE.DATABASE.IN1-mq
+  description: CACHE.DATABASE.IN1
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: TEST1QUEUE-mq
+  description: TEST1QUEUE
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: SAMPLE_SA_RSSDIF_IN-mq
+  description: SAMPLE_SA_RSSDIF_IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: SAMPLE_SA_TLOGRAW_IN-mq
+  description: SAMPLE_SA_TLOGRAW_IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: SAMPLE_SA_TLOGXML_IN-mq
+  description: SAMPLE_SA_TLOGXML_IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: SAMPLE_SA_POSLOGXML_IN-mq
+  description: SAMPLE_SA_POSLOGXML_IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: ARTS_EXAMPLE_INVALID_OUT-mq
+  description: ARTS_EXAMPLE_INVALID_OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: ARTS_EXAMPLE_POSLOGXML_OUT-mq
+  description: ARTS_EXAMPLE_POSLOGXML_OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: ARTS_EXAMPLE_NON_STANDARD_OUT-mq
+  description: ARTS_EXAMPLE_NON_STANDARD_OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: TRANSFORM_EXAMPLE_FAIL_OUT-mq
+  description: TRANSFORM_EXAMPLE_FAIL_OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: DC-mq
+  description: DC
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: DC-mq
+  description: DC
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: IN-mq
+  description: IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: OUT-mq
+  description: OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: WSAGGREGATIONSAMPLE.IN2-mq
+  description: WSAGGREGATIONSAMPLE.IN2
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: WSAGGREGATIONSAMPLE.IN1-mq
+  description: WSAGGREGATIONSAMPLE.IN1
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: SAP.SAMPLE.ASYNCAPP.IN-mq
+  description: SAP.SAMPLE.ASYNCAPP.IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: XML_CONS_IN1-mq
+  description: XML_CONS_IN1
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: XML_CONS_REPLY1-mq
+  description: XML_CONS_REPLY1
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: JAVACOMPUTE.ROUTING.IN-mq
+  description: JAVACOMPUTE.ROUTING.IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: JAVACOMPUTE.ROUTING.OUT-mq
+  description: JAVACOMPUTE.ROUTING.OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: JAVACOMPUTE.ROUTING.ALTERNATE-mq
+  description: JAVACOMPUTE.ROUTING.ALTERNATE
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: JAVACOMPUTE.ROUTING.FAILURE-mq
+  description: JAVACOMPUTE.ROUTING.FAILURE
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: D1-mq
+  description: D1
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: ROUTING.RECORDS.FILE.IN1-mq
+  description: ROUTING.RECORDS.FILE.IN1
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: VIDEO_XML_IN-mq
+  description: VIDEO_XML_IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: VIDEO_CWF_IN-mq
+  description: VIDEO_CWF_IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: VIDEO_TDS_IN-mq
+  description: VIDEO_TDS_IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: VIDEO_OUT-mq
+  description: VIDEO_OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: VIDEO_FAIL-mq
+  description: VIDEO_FAIL
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: Q3-mq
+  description: Q3
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: PHPCOMPUTE.TRANSFORM.IN-mq
+  description: PHPCOMPUTE.TRANSFORM.IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: PHPCOMPUTE.TRANSFORM.OUT-mq
+  description: PHPCOMPUTE.TRANSFORM.OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: CD.SAMPLE.REQUEST-mq
+  description: CD.SAMPLE.REQUEST
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: FTE_STOCK_PROCESS_HQ-mq
+  description: FTE_STOCK_PROCESS_HQ
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: XML_FLIGHTQUERY_REPLIES-mq
+  description: XML_FLIGHTQUERY_REPLIES
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: XML_FLIGHTQUERY_OUT-mq
+  description: XML_FLIGHTQUERY_OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: XML_FLIGHTQUERY_TIMEOUT-mq
+  description: XML_FLIGHTQUERY_TIMEOUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: XML_FLIGHTQUERY_FAIL-mq
+  description: XML_FLIGHTQUERY_FAIL
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: TEST1-mq
+  description: TEST1
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: TEST1.OUT-mq
+  description: TEST1.OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: IN-mq
+  description: IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: OUT-mq
+  description: OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: IMS_SYNC_REQUEST_IN1-mq
+  description: IMS_SYNC_REQUEST_IN1
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: IMS_SYNC_REQUEST_OUT1-mq
+  description: IMS_SYNC_REQUEST_OUT1
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: Q6-mq
+  description: Q6
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: Q1-mq
+  description: Q1
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: LOG-mq
+  description: LOG
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: IN-mq
+  description: IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: OUT-mq
+  description: OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: HOSPITAL.JRNL-mq
+  description: HOSPITAL.JRNL
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: HOSPITAL.RXF1-mq
+  description: HOSPITAL.RXF1
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: HOSPITAL.ERR-mq
+  description: HOSPITAL.ERR
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: HOSPITAL.SRC-mq
+  description: HOSPITAL.SRC
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: CSV2XML.IN1-mq
+  description: CSV2XML.IN1
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: CSV2XML.OUT1-mq
+  description: CSV2XML.OUT1
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: AGGR_SAMPLE_IN-mq
+  description: AGGR_SAMPLE_IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: AGGR_SAMPLE_REQUEST-mq
+  description: AGGR_SAMPLE_REQUEST
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: SAMPLE_ACE_TLOGXML_IN-mq
+  description: SAMPLE_ACE_TLOGXML_IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: SAMPLE_ACE_TLOGRAW_IN-mq
+  description: SAMPLE_ACE_TLOGRAW_IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: SAMPLE_ACE_POSLOGXML_IN-mq
+  description: SAMPLE_ACE_POSLOGXML_IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: SAMPLE_ACE_RSSDIF_IN-mq
+  description: SAMPLE_ACE_RSSDIF_IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: TRANSFORM_EXAMPLE_NON_STANDARD_OUT-mq
+  description: TRANSFORM_EXAMPLE_NON_STANDARD_OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: TRANSFORM_EXAMPLE_POSLOGXML_OUT-mq
+  description: TRANSFORM_EXAMPLE_POSLOGXML_OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: TRANSFORM_EXAMPLE_FAIL_OUT-mq
+  description: TRANSFORM_EXAMPLE_FAIL_OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: TRANSFORM_EXAMPLE_FAIL_OUT-mq
+  description: TRANSFORM_EXAMPLE_FAIL_OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: XML_PASSENGERQUERY_IN-mq
+  description: XML_PASSENGERQUERY_IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: XML_PASSENGERQUERY_FAIL-mq
+  description: XML_PASSENGERQUERY_FAIL
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: XML_PASSENGERQUERY_OUT-mq
+  description: XML_PASSENGERQUERY_OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: DUMMY-mq
+  description: DUMMY
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: FEM.UPSTREAM.FEED.Q-mq
+  description: FEM.UPSTREAM.FEED.Q
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: FEM.DOWNSTREAM.ALT.Q-mq
+  description: FEM.DOWNSTREAM.ALT.Q
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: FEM.DOWNSTREAM.FEED.Q-mq
+  description: FEM.DOWNSTREAM.FEED.Q
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: FEM.FAILED.EVENTLOG.Q-mq
+  description: FEM.FAILED.EVENTLOG.Q
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: FEM.GENERIC.ERROR.Q-mq
+  description: FEM.GENERIC.ERROR.Q
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: Q4-mq
+  description: Q4
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: TWINEBALL.FROM.LEGACY.DELETE-mq
+  description: TWINEBALL.FROM.LEGACY.DELETE
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: TWINEBALL.FROM.LEGACY.CREATE-mq
+  description: TWINEBALL.FROM.LEGACY.CREATE
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: INPUT_ORDER_PRICE-mq
+  description: INPUT_ORDER_PRICE
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: GOLD_ORDER_TOTAL-mq
+  description: GOLD_ORDER_TOTAL
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: REGULAR_ORDER_TOTAL-mq
+  description: REGULAR_ORDER_TOTAL
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: GUEST_ORDER_TOTAL-mq
+  description: GUEST_ORDER_TOTAL
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: SAP_CUSTOMER_INQ-mq
+  description: SAP_CUSTOMER_INQ
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: SAP_CUSTOMER_ERRQ-mq
+  description: SAP_CUSTOMER_ERRQ
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: SAP_CUSTOMER_OUTQ-mq
+  description: SAP_CUSTOMER_OUTQ
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: ROUTING.DATABASE.MEMORY.IN1-mq
+  description: ROUTING.DATABASE.MEMORY.IN1
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: ROUTING.DATABASE.REFRESH.IN1-mq
+  description: ROUTING.DATABASE.REFRESH.IN1
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: CACHE.DATABASE.IN1-mq
+  description: CACHE.DATABASE.IN1
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: ROUTING.DATABASE.REFRESH.OUT1-mq
+  description: ROUTING.DATABASE.REFRESH.OUT1
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: Q1-mq
+  description: Q1
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: Q2-mq
+  description: Q2
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: Q5-mq
+  description: Q5
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: Q3-mq
+  description: Q3
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: Q4-mq
+  description: Q4
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: LOG-mq
+  description: LOG
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: MQ_SERVER_REQUEST-mq
+  description: MQ_SERVER_REQUEST
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: SAMPLE_SA_RSSDIF_IN-mq
+  description: SAMPLE_SA_RSSDIF_IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: SAMPLE_SA_TLOGRAW_IN-mq
+  description: SAMPLE_SA_TLOGRAW_IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: SAMPLE_SA_TLOGXML_IN-mq
+  description: SAMPLE_SA_TLOGXML_IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: SAMPLE_SA_POSLOGXML_IN-mq
+  description: SAMPLE_SA_POSLOGXML_IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: TRANSFORM_EXAMPLE_NON_STANDARD_OUT-mq
+  description: TRANSFORM_EXAMPLE_NON_STANDARD_OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: TRANSFORM_EXAMPLE_POSLOGXML_OUT-mq
+  description: TRANSFORM_EXAMPLE_POSLOGXML_OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: TRANSFORM_EXAMPLE_FAIL_OUT-mq
+  description: TRANSFORM_EXAMPLE_FAIL_OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: FTE_STOCK_INVOICE_BRANCH-mq
+  description: FTE_STOCK_INVOICE_BRANCH
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: CALLED.QUEUE-mq
+  description: CALLED.QUEUE
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: REPLY.QUEUE-mq
+  description: REPLY.QUEUE
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: CALLED_APP-mq
+  description: CALLED_APP
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: CALLEDQUEUE-mq
+  description: CALLEDQUEUE
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: QUEUE.COMPUTE.IN-mq
+  description: QUEUE.COMPUTE.IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: FINANCE.B2B.ESB.REQUEST-mq
+  description: FINANCE.B2B.ESB.REQUEST
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: LOGGING.ALL.ERRORS-mq
+  description: LOGGING.ALL.ERRORS
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: LOGGING.ALL.MESSAGES-mq
+  description: LOGGING.ALL.MESSAGES
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: WSAGGREGATIONSAMPLE.OUT2-mq
+  description: WSAGGREGATIONSAMPLE.OUT2
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: WSAGGREGATIONSAMPLE.OUT1-mq
+  description: WSAGGREGATIONSAMPLE.OUT1
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: HOSPITAL.RXF1-mq
+  description: HOSPITAL.RXF1
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: HOSPITAL.CAN-mq
+  description: HOSPITAL.CAN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: HOSPITAL.DEST1-mq
+  description: HOSPITAL.DEST1
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: HOSPITAL.ERR-mq
+  description: HOSPITAL.ERR
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: QUEUE.COMPUTE.CHECK-mq
+  description: QUEUE.COMPUTE.CHECK
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: QUEUE.COMPUTE.OUT-mq
+  description: QUEUE.COMPUTE.OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: ADDNAMESPACEMF.IN-mq
+  description: ADDNAMESPACEMF.IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: ADDNAMESPACEMF.OUT-mq
+  description: ADDNAMESPACEMF.OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: IN-mq
+  description: IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: OUT-mq
+  description: OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: SCRIBBLE_PUBLICATION-mq
+  description: SCRIBBLE_PUBLICATION
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: EVENT.TRIGGER-mq
+  description: EVENT.TRIGGER
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: JCNJAXIN-mq
+  description: JCNJAXIN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: JCNJAXBOUT-mq
+  description: JCNJAXBOUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: SOAPSAMPLE_IN-mq
+  description: SOAPSAMPLE_IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: SOAPSAMPLE_OUT-mq
+  description: SOAPSAMPLE_OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: SOAPSAMPLE_FAULT-mq
+  description: SOAPSAMPLE_FAULT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: CHANGENAMESPACEMF.IN-mq
+  description: CHANGENAMESPACEMF.IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: CHANGENAMESPACEMF.OUT-mq
+  description: CHANGENAMESPACEMF.OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: HOSPITAL.DEST1-mq
+  description: HOSPITAL.DEST1
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: HOSPITAL.ERR-mq
+  description: HOSPITAL.ERR
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: LOG-mq
+  description: LOG
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: CSV2CSV.IN1-mq
+  description: CSV2CSV.IN1
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: CSV2CSV.IN2-mq
+  description: CSV2CSV.IN2
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: CSV2CSV.OUT1-mq
+  description: CSV2CSV.OUT1
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: MQ_SERVER_REQUEST-mq
+  description: MQ_SERVER_REQUEST
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: SAMPLE_SA_RSSDIF_IN-mq
+  description: SAMPLE_SA_RSSDIF_IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: SAMPLE_SA_TLOGRAW_IN-mq
+  description: SAMPLE_SA_TLOGRAW_IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: SAMPLE_SA_TLOGXML_IN-mq
+  description: SAMPLE_SA_TLOGXML_IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: SAMPLE_SA_POSLOGXML_IN-mq
+  description: SAMPLE_SA_POSLOGXML_IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: RETEK_EXAMPLE_NON_STANDARD_OUT-mq
+  description: RETEK_EXAMPLE_NON_STANDARD_OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: RETEK_EXAMPLE_OUT-mq
+  description: RETEK_EXAMPLE_OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: TRANSFORM_EXAMPLE_FAIL_OUT-mq
+  description: TRANSFORM_EXAMPLE_FAIL_OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: JAVACOMPUTE.TRANSFORMXPATH.IN-mq
+  description: JAVACOMPUTE.TRANSFORMXPATH.IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: JAVACOMPUTE.TRANSFORMXPATH.FAILURE-mq
+  description: JAVACOMPUTE.TRANSFORMXPATH.FAILURE
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: JAVACOMPUTE.TRANSFORMXPATH.OUT-mq
+  description: JAVACOMPUTE.TRANSFORMXPATH.OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: DELETE_IN1-mq
+  description: DELETE_IN1
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: CREATE_IN1-mq
+  description: CREATE_IN1
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: RETRIEVE_IN1-mq
+  description: RETRIEVE_IN1
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: UPDATE_IN1-mq
+  description: UPDATE_IN1
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: JSON_REPLY1-mq
+  description: JSON_REPLY1
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: D-mq
+  description: D
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: A-mq
+  description: A
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: TRANSFORM_EXAMPLE_FAIL_OUT-mq
+  description: TRANSFORM_EXAMPLE_FAIL_OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: PQ1-mq
+  description: PQ1
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: DA_IN-mq
+  description: DA_IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: DA_ERROR-mq
+  description: DA_ERROR
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: DA_VALIDATION-mq
+  description: DA_VALIDATION
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: DA_OUT-mq
+  description: DA_OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: ISO8583.TESTER.IN-mq
+  description: ISO8583.TESTER.IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: ISO8583.TESTER.OUT-mq
+  description: ISO8583.TESTER.OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: QUEUE.DEFINED.USED.NOTDEFINED-mq
+  description: QUEUE.DEFINED.USED.NOTDEFINED
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: QUEUE.OUT-mq
+  description: QUEUE.OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: COLL_IN3-mq
+  description: COLL_IN3
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: COLL_IN1-mq
+  description: COLL_IN1
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: COLL_EXPIRE2-mq
+  description: COLL_EXPIRE2
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: COLL_CATCH1-mq
+  description: COLL_CATCH1
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: COLL_OUT-mq
+  description: COLL_OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: COLL_EXPIRE1-mq
+  description: COLL_EXPIRE1
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: SAMPLE_GSA_RSSDIF_IN-mq
+  description: SAMPLE_GSA_RSSDIF_IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: SAMPLE_GSA_TLOGRAW_IN-mq
+  description: SAMPLE_GSA_TLOGRAW_IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: SAMPLE_GSA_TLOGXML_IN-mq
+  description: SAMPLE_GSA_TLOGXML_IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: SAMPLE_GSA_POSLOGXML_IN-mq
+  description: SAMPLE_GSA_POSLOGXML_IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: RETEK_EXAMPLE_NON_STANDARD_OUT-mq
+  description: RETEK_EXAMPLE_NON_STANDARD_OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: RETEK_EXAMPLE_OUT-mq
+  description: RETEK_EXAMPLE_OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: TRANSFORM_EXAMPLE_FAIL_OUT-mq
+  description: TRANSFORM_EXAMPLE_FAIL_OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: DOTNET.INPUT.IN-mq
+  description: DOTNET.INPUT.IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: STOREMQ.OUT-mq
+  description: STOREMQ.OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: RESULT.OUT-mq
+  description: RESULT.OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: STOREMQ.OUT-mq
+  description: STOREMQ.OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: RESULT.OUT-mq
+  description: RESULT.OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: SAMPLE_GSA_RSSDIF_IN-mq
+  description: SAMPLE_GSA_RSSDIF_IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: SAMPLE_GSA_TLOGRAW_IN-mq
+  description: SAMPLE_GSA_TLOGRAW_IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: SAMPLE_GSA_TLOGXML_IN-mq
+  description: SAMPLE_GSA_TLOGXML_IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: SAMPLE_GSA_POSLOGXML_IN-mq
+  description: SAMPLE_GSA_POSLOGXML_IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: ARTS_EXAMPLE_INVALID_OUT-mq
+  description: ARTS_EXAMPLE_INVALID_OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: ARTS_EXAMPLE_POSLOGXML_OUT-mq
+  description: ARTS_EXAMPLE_POSLOGXML_OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: ARTS_EXAMPLE_NON_STANDARD_OUT-mq
+  description: ARTS_EXAMPLE_NON_STANDARD_OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: TRANSFORM_EXAMPLE_FAIL_OUT-mq
+  description: TRANSFORM_EXAMPLE_FAIL_OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: WSRR_IN-mq
+  description: WSRR_IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: WSRR_OUT-mq
+  description: WSRR_OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: HOSPITAL.ERR-mq
+  description: HOSPITAL.ERR
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: GET_BACKEND_GC_REP-mq
+  description: GET_BACKEND_GC_REP
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: TIMEOUT_SAMPLE_IN_1-mq
+  description: TIMEOUT_SAMPLE_IN_1
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: TIMEOUT_SAMPLE_IN_2-mq
+  description: TIMEOUT_SAMPLE_IN_2
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: TIMEOUT_SAMPLE_OUT_2-mq
+  description: TIMEOUT_SAMPLE_OUT_2
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: XML_TO_SWIFT_IN-mq
+  description: XML_TO_SWIFT_IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: XML_TO_SWIFT_OUT-mq
+  description: XML_TO_SWIFT_OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: SWIFT_FAIL-mq
+  description: SWIFT_FAIL
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: WSAGGREGATIONSAMPLE.MONITOR-mq
+  description: WSAGGREGATIONSAMPLE.MONITOR
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: BOOKORDER_IN-mq
+  description: BOOKORDER_IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: BOOKORDER_OUT_FREEPOSTAGE-mq
+  description: BOOKORDER_OUT_FREEPOSTAGE
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: BOOKORDER_OUT_PAYPOSTAGE-mq
+  description: BOOKORDER_OUT_PAYPOSTAGE
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: ISO8583.IN-mq
+  description: ISO8583.IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: EDIFACT_TO_XML_IN-mq
+  description: EDIFACT_TO_XML_IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: EDIFACT_TO_XML_OUT-mq
+  description: EDIFACT_TO_XML_OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: EDIFACT_FAIL-mq
+  description: EDIFACT_FAIL
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: Q1-mq
+  description: Q1
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: Q2-mq
+  description: Q2
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: Q3-mq
+  description: Q3
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: Q4-mq
+  description: Q4
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: Q1-mq
+  description: Q1
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: Q2-mq
+  description: Q2
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: Q3-mq
+  description: Q3
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: Q4-mq
+  description: Q4
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: LOG-mq
+  description: LOG
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: HL7_TEST_RECEIVE_OUT-mq
+  description: HL7_TEST_RECEIVE_OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: STAFF_IN-mq
+  description: STAFF_IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: STAFF_UPDATE_ERROR-mq
+  description: STAFF_UPDATE_ERROR
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: STAFF_FAIL-mq
+  description: STAFF_FAIL
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: STAFF_OUT-mq
+  description: STAFF_OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: MQ_TEST2-mq
+  description: MQ_TEST2
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: IN-mq
+  description: IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: OUT-mq
+  description: OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: APP_IN1-mq
+  description: APP_IN1
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: APP_OUT1-mq
+  description: APP_OUT1
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: AGGR_SAMPLE_REPLY-mq
+  description: AGGR_SAMPLE_REPLY
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: AGGR_SAMPLE_OUT-mq
+  description: AGGR_SAMPLE_OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: TCPIP_CLIENT_IN-mq
+  description: TCPIP_CLIENT_IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: TCPIP_CLIENT_OUT-mq
+  description: TCPIP_CLIENT_OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: TCPIP_ASYNC_IN-mq
+  description: TCPIP_ASYNC_IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: TCPIP_ASYNC_FAIL-mq
+  description: TCPIP_ASYNC_FAIL
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: APP_OUT1-mq
+  description: APP_OUT1
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: APP_IN1-mq
+  description: APP_IN1
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: JSONSVC_STATE1-mq
+  description: JSONSVC_STATE1
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: DELETENAMESPACEMF.IN-mq
+  description: DELETENAMESPACEMF.IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: DELETENAMESPACEMF.OUT-mq
+  description: DELETENAMESPACEMF.OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: Q2-mq
+  description: Q2
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: Q5-mq
+  description: Q5
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: LOG-mq
+  description: LOG
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: QUEUE.COMPUTE.IN-mq
+  description: QUEUE.COMPUTE.IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: HOSPITAL.ERR-mq
+  description: HOSPITAL.ERR
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: SAMPLE_ACE_TLOGXML_IN-mq
+  description: SAMPLE_ACE_TLOGXML_IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: SAMPLE_ACE_TLOGRAW_IN-mq
+  description: SAMPLE_ACE_TLOGRAW_IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: SAMPLE_ACE_POSLOGXML_IN-mq
+  description: SAMPLE_ACE_POSLOGXML_IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: SAMPLE_ACE_RSSDIF_IN-mq
+  description: SAMPLE_ACE_RSSDIF_IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: ARTS_EXAMPLE_INVALID_OUT-mq
+  description: ARTS_EXAMPLE_INVALID_OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: ARTS_EXAMPLE_POSLOGXML_OUT-mq
+  description: ARTS_EXAMPLE_POSLOGXML_OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: ARTS_EXAMPLE_NON_STANDARD_OUT-mq
+  description: ARTS_EXAMPLE_NON_STANDARD_OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: TRANSFORM_EXAMPLE_FAIL_OUT-mq
+  description: TRANSFORM_EXAMPLE_FAIL_OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: HOSPITAL.JRNL-mq
+  description: HOSPITAL.JRNL
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: ADAPTERMIGRATION.CUSTOMER-mq
+  description: ADAPTERMIGRATION.CUSTOMER
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: ADAPTERMIGRATION.INVOICE-mq
+  description: ADAPTERMIGRATION.INVOICE
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: ADAPTERMIGRATION.ADDRESS-mq
+  description: ADAPTERMIGRATION.ADDRESS
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: ADAPTERMIGRATION.FAILURE-mq
+  description: ADAPTERMIGRATION.FAILURE
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: AGGR_SAMPLE_REQUEST-mq
+  description: AGGR_SAMPLE_REQUEST
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: EMAILOUT-mq
+  description: EMAILOUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: ADAPTERMIGRATION.DELIVERYQUEUE-mq
+  description: ADAPTERMIGRATION.DELIVERYQUEUE
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: ADAPTERMIGRATION.CUSTOMER-mq
+  description: ADAPTERMIGRATION.CUSTOMER
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: ADAPTERMIGRATION.INVOICE-mq
+  description: ADAPTERMIGRATION.INVOICE
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: ADAPTERMIGRATION.ADDRESS-mq
+  description: ADAPTERMIGRATION.ADDRESS
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: ADAPTERMIGRATION.FAILURE-mq
+  description: ADAPTERMIGRATION.FAILURE
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: PROCESS,QUEUE-mq
+  description: PROCESS,QUEUE
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: ROUTING.FILE.MEMORY.IN1-mq
+  description: ROUTING.FILE.MEMORY.IN1
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: ROUTING.FILE.REFRESH.IN1-mq
+  description: ROUTING.FILE.REFRESH.IN1
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: ROUTING.FILE.REFRESH.OUT1-mq
+  description: ROUTING.FILE.REFRESH.OUT1
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: XMLT_IN-mq
+  description: XMLT_IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: XMLT_OUT-mq
+  description: XMLT_OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: TESTXML1.IN-mq
+  description: TESTXML1.IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: TESTXML1.OUT-mq
+  description: TESTXML1.OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: TESTQ.1-mq
+  description: TESTQ.1
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: IN-mq
+  description: IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: OUT-mq
+  description: OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: FTE_STOCK_REQ_BRANCH-mq
+  description: FTE_STOCK_REQ_BRANCH
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: XML_FLIGHTQUERY_FLIGHT-mq
+  description: XML_FLIGHTQUERY_FLIGHT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: XML_FLIGHTQUERY_PASSENGERS-mq
+  description: XML_FLIGHTQUERY_PASSENGERS
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: XML_FLIGHTQUERY_FAIL-mq
+  description: XML_FLIGHTQUERY_FAIL
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: TEST1.IN-mq
+  description: TEST1.IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: TEST1.OUT-mq
+  description: TEST1.OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: FIX_TO_XML_IN-mq
+  description: FIX_TO_XML_IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: FIX_TO_XML_OUT-mq
+  description: FIX_TO_XML_OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: FIX_FAIL-mq
+  description: FIX_FAIL
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: GET_REQREP_IN-mq
+  description: GET_REQREP_IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: GET_BACKEND_REQ-mq
+  description: GET_BACKEND_REQ
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: GET_REPTO_STORE-mq
+  description: GET_REPTO_STORE
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: IN-mq
+  description: IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: OUT-mq
+  description: OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: SAP_MATMAS_OUTQ-mq
+  description: SAP_MATMAS_OUTQ
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: TEST3.IN2-mq
+  description: TEST3.IN2
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: TEST3.OUT-mq
+  description: TEST3.OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: TEST3A.OUT-mq
+  description: TEST3A.OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: ISO8583.OUT-mq
+  description: ISO8583.OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: LARGE_MESSAGING_IN-mq
+  description: LARGE_MESSAGING_IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: LARGE_MESSAGING_MALFORMED_MESSAGE-mq
+  description: LARGE_MESSAGING_MALFORMED_MESSAGE
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: LARGE_MESSAGING_SLICES-mq
+  description: LARGE_MESSAGING_SLICES
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: LARGE_MESSAGING_SLICING_COMPLETE-mq
+  description: LARGE_MESSAGING_SLICING_COMPLETE
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: LARGE_MESSAGING_ERROR-mq
+  description: LARGE_MESSAGING_ERROR
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: FEM.DOWNSTREAM.ALT.Q-mq
+  description: FEM.DOWNSTREAM.ALT.Q
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: FEM.DOWNSTREAM.FEED.Q-mq
+  description: FEM.DOWNSTREAM.FEED.Q
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: MQBROWSE_IN-mq
+  description: MQBROWSE_IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: MQBROWSE_OUT-mq
+  description: MQBROWSE_OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: XML_FLIGHTQUERY_IN-mq
+  description: XML_FLIGHTQUERY_IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: XML_FLIGHTQUERY_FLIGHT-mq
+  description: XML_FLIGHTQUERY_FLIGHT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: XML_FLIGHTQUERY_FAIL-mq
+  description: XML_FLIGHTQUERY_FAIL
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: XML_FLIGHTQUERY_PASSENGERS-mq
+  description: XML_FLIGHTQUERY_PASSENGERS
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: WSAGGREGATIONSAMPLE.OUT2-mq
+  description: WSAGGREGATIONSAMPLE.OUT2
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: WSAGGREGATIONSAMPLE.OUT1-mq
+  description: WSAGGREGATIONSAMPLE.OUT1
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: XML_TO_EDIFACT_IN-mq
+  description: XML_TO_EDIFACT_IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: XML_TO_EDIFACT_OUT-mq
+  description: XML_TO_EDIFACT_OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: EDIFACT_FAIL-mq
+  description: EDIFACT_FAIL
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: START-mq
+  description: START
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: Q1-mq
+  description: Q1
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: A-mq
+  description: A
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: Q2-mq
+  description: Q2
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: QUEUE.DEFINED.1-mq
+  description: QUEUE.DEFINED.1
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: JAVACOMPUTE.TRANSFORMNOXPATH.IN-mq
+  description: JAVACOMPUTE.TRANSFORMNOXPATH.IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: JAVACOMPUTE.TRANSFORMNOXPATH.FAILURE-mq
+  description: JAVACOMPUTE.TRANSFORMNOXPATH.FAILURE
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: JAVACOMPUTE.TRANSFORMNOXPATH.OUT-mq
+  description: JAVACOMPUTE.TRANSFORMNOXPATH.OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: B-mq
+  description: B
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: C-mq
+  description: C
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: QUEUE.SERVICE1.REQUEST-mq
+  description: QUEUE.SERVICE1.REQUEST
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: SAMPLE_ACE_TLOGXML_IN-mq
+  description: SAMPLE_ACE_TLOGXML_IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: SAMPLE_ACE_TLOGRAW_IN-mq
+  description: SAMPLE_ACE_TLOGRAW_IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: SAMPLE_ACE_POSLOGXML_IN-mq
+  description: SAMPLE_ACE_POSLOGXML_IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: SAMPLE_ACE_RSSDIF_IN-mq
+  description: SAMPLE_ACE_RSSDIF_IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: RETEK_EXAMPLE_NON_STANDARD_OUT-mq
+  description: RETEK_EXAMPLE_NON_STANDARD_OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: RETEK_EXAMPLE_OUT-mq
+  description: RETEK_EXAMPLE_OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: TRANSFORM_EXAMPLE_FAIL_OUT-mq
+  description: TRANSFORM_EXAMPLE_FAIL_OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: IN-mq
+  description: IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: OUT-mq
+  description: OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: TRANSFORM_EXAMPLE_FAIL_OUT-mq
+  description: TRANSFORM_EXAMPLE_FAIL_OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: HL7_TEST_IN-mq
+  description: HL7_TEST_IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: HL7_TEST_OUT-mq
+  description: HL7_TEST_OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: SWIFT_TO_XML_IN-mq
+  description: SWIFT_TO_XML_IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: SWIFT_FAIL-mq
+  description: SWIFT_FAIL
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: SWIFT_TO_XML_OUT-mq
+  description: SWIFT_TO_XML_OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: TESTQ1-mq
+  description: TESTQ1
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: OUTPUTTEST1-mq
+  description: OUTPUTTEST1
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: QUEUE.DEFINED.1-mq
+  description: QUEUE.DEFINED.1
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: ADDRESSBOOK_IN-mq
+  description: ADDRESSBOOK_IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: ADDRESSBOOK_OUT-mq
+  description: ADDRESSBOOK_OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: ADDRESSBOOK_FAULT-mq
+  description: ADDRESSBOOK_FAULT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: T1-mq
+  description: T1
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: QUEUE.DEFINED.1-mq
+  description: QUEUE.DEFINED.1
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: QUEUE.COMPUTE.IN2-mq
+  description: QUEUE.COMPUTE.IN2
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: QUEUE.COMPUTE.IN1-mq
+  description: QUEUE.COMPUTE.IN1
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: XML_CANCELRESERVATION_IN-mq
+  description: XML_CANCELRESERVATION_IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: XML_CANCELRESERVATION_FAIL1-mq
+  description: XML_CANCELRESERVATION_FAIL1
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: XML_CANCELRESERVATION_FAIL2-mq
+  description: XML_CANCELRESERVATION_FAIL2
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: XML_CANCELRESERVATION_OUT-mq
+  description: XML_CANCELRESERVATION_OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: XML_TO_FIX_IN-mq
+  description: XML_TO_FIX_IN
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: FIX_FAIL-mq
+  description: FIX_FAIL
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: XML_TO_FIX_OUT-mq
+  description: XML_TO_FIX_OUT
+spec:
+  type: mq
+  owner: iib
+  system: Security-Our-Broker-demo5a
+

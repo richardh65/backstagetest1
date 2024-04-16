@@ -6,7 +6,7 @@ metadata:
 spec:
   type: kafka
   owner: iib
-  system: testMBSampleFileBreaks1
+  system: Security-Our-Broker-demo5a
 
 ---
 apiVersion: backstage.io/v1alpha1
@@ -16,5 +16,5 @@ metadata:
 spec:
   type: kafka
   owner: iib
-  system: testMBSampleFileBreaks1
+  system: Security-Our-Broker-demo5a
 
