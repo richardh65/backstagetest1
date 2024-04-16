@@ -10,9 +10,9 @@ spec:
   lifecycle: production
   owner: iib
   system: testMBSampleFileBreaks1  
-  # dependsOn:
-  # - resource:testTopic1-kafka  
-  # - resource:unsecure_topic_longname-kafka  
+  dependsOn:
+  - resource:testTopic1-kafka  
+  - resource:unsecure_topic_longname-kafka  
 
   # providesApis:
   #  - artist-api
