@@ -9,9 +9,9 @@ spec:
   owner: iib
   system: testKingFisherR370_1  
   dependsOn:
-    - resource:TDBName-db
-      - resource:TESTXML1.IN-mq
-  
+  - resource:TDBName-db
+  - resource:TESTXML1.IN-mq
+
   # providesApis:
   #  - artist-api
 ---
