@@ -2,7 +2,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: System
 metadata:
-  name: testJoinSubflows3
+  name: testMBSampleFileBreaks1
   description: Handy tools to keep artists in the loop
 spec:
   owner: bct-iib-generation
@@ -19,4 +19,5 @@ spec:
     - ./components/bct-msg-flows.yaml
     - ./resources/bct-datasources.yaml
     - ./components/bct-input-mq.yaml
+    - ./components/bct-kafka.yaml
 

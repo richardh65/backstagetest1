@@ -1,0 +1,24 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: testTopic1-mq
+  annotations:
+    kafka.apache.org/consumer-groups: testTopic1  
+spec:
+  type: kafka
+  owner: iib
+  system: testMBSampleFileBreaks1
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: unsecure_topic_longname-mq
+  annotations:
+    kafka.apache.org/consumer-groups: unsecure_topic_longname  
+spec:
+  type: kafka
+  owner: iib
+  system: testMBSampleFileBreaks1
+
