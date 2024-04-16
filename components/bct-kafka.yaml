@@ -1,6 +1,6 @@
 ---
 apiVersion: backstage.io/v1alpha1
-kind: Reference
+kind: Resource
 metadata:
   name: testTopic1-kafka
 spec:
@@ -10,7 +10,7 @@ spec:
 
 ---
 apiVersion: backstage.io/v1alpha1
-kind: Reference
+kind: Resource
 metadata:
   name: unsecure_topic_longname-kafka
 spec:
