@@ -1,16 +1,16 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: WithAggregrateNodes.msgflow
-  title: WithAggregrateNodes.msgflow - 1
+  name: R370/Test_XXE.msgflow
+  title: R370/Test_XXE.msgflow - 1
 spec:
   type: service
   lifecycle: production
   owner: iib
-  system: testAggregate1
-  providesApis:
-    - TEST1-mq
-
+  system: testKingFisherR370_1  
+  dependsOn:
+    - resource:TDBName-db
+  
   #dependsOn:
   #  - resource:default/artists-db
   # providesApis:

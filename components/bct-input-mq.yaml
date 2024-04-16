@@ -1,16 +1,22 @@
----					
+---
 apiVersion: backstage.io/v1alpha1
-kind: API
+kind: Resource
+# kind: API
 metadata:
-  name: TEST1-mq
-  # description: $escapeTool.html($!datasource.dataSourceName)
-spec:  
-  type: openapi
-  lifecycle: production
-  # this ideally should be an argument
-  # type: mq - ideally we can have an option for non REST services
-  owner: iib
-  system: testAggregate1
-  definition:
-    $text: https://github.com/someproject/openapi.yaml
+  name: TESTXML1.IN-mq
+  description: TESTXML1.IN
+spec:
+  type: mq
+  system: testKingFisherR370_1
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+# kind: API
+metadata:
+  name: TESTXML1.OUT-mq
+  description: TESTXML1.OUT
+spec:
+  type: mq
+  system: testKingFisherR370_1
 
