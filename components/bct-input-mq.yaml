@@ -6,6 +6,8 @@ metadata:
   # description: $escapeTool.html($!datasource.dataSourceName)
 spec:  
   type: openapi
+  lifecycle: production
+  # this ideally should be an argument
   # type: mq - ideally we can have an option for non REST services
   owner: iib
   system: testAggregate1
