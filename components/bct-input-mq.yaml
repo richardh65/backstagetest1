@@ -7,6 +7,7 @@ metadata:
   description: TESTXML1.IN
 spec:
   type: mq
+  owner: iib
   system: testKingFisherR370_1
 
 ---
@@ -18,5 +19,6 @@ metadata:
   description: TESTXML1.OUT
 spec:
   type: mq
+  owner: iib
   system: testKingFisherR370_1
 
