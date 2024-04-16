@@ -19,5 +19,5 @@ spec:
     - ./components/bct-msg-flows.yaml
     - ./resources/bct-datasources.yaml
     - ./components/bct-input-mq.yaml
-    - ./components/bct-kafka.yaml
+    # - ./components/bct-kafka.yaml
 
