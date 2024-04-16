@@ -3,9 +3,9 @@ kind: Component
 metadata:
   name: KafkaPlay.msgflow
   title: KafkaPlay.msgflow - 1  
-  kafka.apache.org/consumer-groups: 
-    - testTopic1
-    - unsecure_topic_longname-kafka
+  kafka.apache.org/consumer-groups:
+    - testTopic1-kafka  
+    - unsecure_topic_longname-kafka  
   
 spec:
   type: service
@@ -13,8 +13,8 @@ spec:
   owner: iib
   system: testMBSampleFileBreaks1  
   dependsOn:
-  - resource:testTopic1-kafka
-  - resource:unsecure_topic_longname-kafka
+  - resource:testTopic1-kafka  
+  - resource:unsecure_topic_longname-kafka  
 
   # providesApis:
   #  - artist-api
