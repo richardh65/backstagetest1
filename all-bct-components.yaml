@@ -2,7 +2,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: System
 metadata:
-  name: testKingFisherR370_1
+  name: testJoinSubflows3
   description: Handy tools to keep artists in the loop
 spec:
   owner: bct-iib-generation

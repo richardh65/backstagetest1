@@ -3,22 +3,10 @@ apiVersion: backstage.io/v1alpha1
 kind: Resource
 # kind: API
 metadata:
-  name: TESTXML1.IN-mq
-  description: TESTXML1.IN
+  name: BRK.WPG.REQUEST.GENERAL-mq
+  description: BRK.WPG.REQUEST.GENERAL
 spec:
   type: mq
   owner: iib
-  system: testKingFisherR370_1
-
----
-apiVersion: backstage.io/v1alpha1
-kind: Resource
-# kind: API
-metadata:
-  name: TESTXML1.OUT-mq
-  description: TESTXML1.OUT
-spec:
-  type: mq
-  owner: iib
-  system: testKingFisherR370_1
+  system: testJoinSubflows3
 
