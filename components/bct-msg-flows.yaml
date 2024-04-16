@@ -11,6 +11,7 @@ spec:
   dependsOn:
   - resource:TDBName-db
   - resource:TESTXML1.IN-mq
+  - resource:TESTXML1.OUT-mq
 
   # providesApis:
   #  - artist-api
