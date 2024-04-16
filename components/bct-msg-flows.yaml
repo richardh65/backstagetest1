@@ -3,9 +3,10 @@ kind: Component
 metadata:
   name: KafkaPlay.msgflow
   title: KafkaPlay.msgflow - 1  
-  kafka.apache.org/consumer-groups:
-    - testTopic1-kafka  
-    - unsecure_topic_longname-kafka  
+  annotations:
+    kafka.apache.org/consumer-groups:
+      - testTopic1-kafka
+      - unsecure_topic_longname-kafka
   
 spec:
   type: service
