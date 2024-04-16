@@ -3,9 +3,7 @@ kind: Component
 metadata:
   name: KafkaPlay.msgflow
   title: KafkaPlay.msgflow - 1  
-  kafka.apache.org/consumer-groups:
-  - testTopic1  
-  - unsecure_topic_longname  
+  kafka.apache.org/consumer-groups: testTopic1, unsecure_topic_longname  
   
 spec:
   type: service
