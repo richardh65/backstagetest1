@@ -2,12 +2,18 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: KafkaPlay.msgflow
-  title: KafkaPlay.msgflow - 1
+  title: KafkaPlay.msgflow - 1  
+  kafka.apache.org/consumer-groups: testTopic1  
+  kafka.apache.org/consumer-groups: unsecure_topic_longname  
+  
 spec:
   type: service
   lifecycle: production
   owner: iib
   system: testMBSampleFileBreaks1  
+  dependsOn:
+  - resource:testTopic1-kafka  
+  - resource:unsecure_topic_longname-kafka  
 
   # providesApis:
   #  - artist-api

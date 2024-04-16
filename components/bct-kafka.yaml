@@ -1,10 +1,8 @@
 ---
 apiVersion: backstage.io/v1alpha1
-kind: Resource
+kind: Reference
 metadata:
-  name: testTopic1-mq
-  annotations:
-    kafka.apache.org/consumer-groups: testTopic1  
+  name: testTopic1-kafka
 spec:
   type: kafka
   owner: iib
@@ -12,11 +10,9 @@ spec:
 
 ---
 apiVersion: backstage.io/v1alpha1
-kind: Resource
+kind: Reference
 metadata:
-  name: unsecure_topic_longname-mq
-  annotations:
-    kafka.apache.org/consumer-groups: unsecure_topic_longname  
+  name: unsecure_topic_longname-kafka
 spec:
   type: kafka
   owner: iib
