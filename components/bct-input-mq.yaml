@@ -11,4 +11,6 @@ spec:
   # type: mq - ideally we can have an option for non REST services
   owner: iib
   system: testAggregate1
+  definition:
+    $text: https://github.com/someproject/openapi.yaml
 
