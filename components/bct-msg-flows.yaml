@@ -10,9 +10,8 @@ spec:
   system: testKingFisherR370_1  
   dependsOn:
     - resource:TDBName-db
+      - resource:TESTXML1.IN-mq
   
-  #dependsOn:
-  #  - resource:default/artists-db
   # providesApis:
   #  - artist-api
 ---
