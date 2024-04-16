@@ -9,7 +9,7 @@ spec:
   owner: iib
   system: testAggregate1
   providesApis:
-    - TEST1
+    - TEST1-mq
 
   #dependsOn:
   #  - resource:default/artists-db
